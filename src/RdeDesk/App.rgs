@@ -1,0 +1,16 @@
+
+HKLM
+{
+    %REGROOT_BEGIN%
+   
+	NoRemove AppGroups
+    {
+		Remove RdeDesk
+		{
+			val ServerExplorer = d 1
+			val OweDebug = d 1
+		}
+	}
+    
+    %REGROOT_END%
+}
